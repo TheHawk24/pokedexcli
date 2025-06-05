@@ -2,7 +2,20 @@ package main
 
 import (
 	"testing"
+	// "time"
 )
+
+//func TestCacheAddGet(t *testing.T) {
+//	const interval = 5 * time.Second
+//	cases := []struct {
+//		key string
+//		val []byte
+//	} {
+//		{
+//			key: "url",
+//		},
+//	}
+//}
 
 func TestCleanInput(t *testing.T) {
 	cases := []struct {
